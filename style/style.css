@@ -1,11 +1,19 @@
-.container-blue{
-    height: 250px;
-    background-color: blue;
-    width: 100%;
+
+
+.container-main{
+    border: 2px solid black;
+    width: auto;
+    height: 600px;
+    background-color: white;
 }
 
-.container-griglia{
-    border: 2px solid black;
-    width: 500px;
-    background-color: red;
+.left{
+    border: 2px solid magenta;
+    width: 50%;
+    height: 500px;
+}
+
+header img{
+    height: 50px;
+
 }
