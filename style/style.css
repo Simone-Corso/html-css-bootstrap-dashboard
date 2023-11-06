@@ -6,11 +6,25 @@ header img{
 
 main{
     border: 2px solid yellow;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+}
+
+aside{
+    position: absolute;
+    left: 0;
+    top: 76px;
+    width: 300px;
+    height: calc(100vh - 76px);
 }
 
 .flex-nowrap {
     flex-wrap: nowrap;
     height: 900px;
+}
+
+.px-sm-2px-0bg-dark{
+    height: 100%;
 }
 
 .container-quadrettoni{
