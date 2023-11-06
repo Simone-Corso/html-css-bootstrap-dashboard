@@ -6,20 +6,23 @@ main{
 
 .container-main{
     border: 2px solid black;
-    height: 780px;
+    height: 852px;
+    width: 100%;
     background-color: white;
     display: flex;
 }
 
+
 .row-left{
     border: 2px solid magenta;
-    width: 705px;
-    height: 780px;
-}   
+    width: 70%;
+    height: 850px;
+}
+
 .row-right{
     border: 2px solid magenta;
-    width: 400px;
-    height: 780px
+    width: 30%;
+    height: 850px;
 }
 
 header img{
@@ -29,7 +32,7 @@ header img{
 
 .sidebar{
     width: 140px;
-    height: 780px;
+    height: 852px;
     background-color: red;
     display: flex;
 }
