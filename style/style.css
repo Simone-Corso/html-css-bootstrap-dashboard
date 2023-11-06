@@ -10,6 +10,12 @@ main{
     width: calc(100% - 300px);
 }
 
+.container-blue{
+    height: 120px;
+    background-color: blue;
+    border: 2px solid yellow;
+}
+
 aside{
     position: absolute;
     left: 0;
