@@ -1,16 +1,26 @@
 
 
-.container-main{
-    border: 2px solid black;
-    width: auto;
-    height: 600px;
-    background-color: white;
+main{
+    display: flex;
 }
 
-.left{
+.container-main{
+    border: 2px solid black;
+    width: 1000px;
+    height: 780px;
+    background-color: white;
+    display: flex;
+}
+
+.row-left{
     border: 2px solid magenta;
     width: 50%;
-    height: 500px;
+    height: 780px;
+}
+.row-right{
+    border: 2px solid magenta;
+    width: 50%;
+    height: 780px;
 }
 
 header img{
@@ -20,8 +30,9 @@ header img{
 
 .sidebar{
     width: 250px;
-    height: 750px;
+    height: 780px;
     background-color: red;
+    display: flex;
 }
 
 ul,li{
