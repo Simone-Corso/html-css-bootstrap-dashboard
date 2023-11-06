@@ -21,29 +21,68 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
             </div>
-        </nav>      
-    </header>
+        </nav> 
 <!--Qua va inserito il sidebar alla sinistra e alla destra un main con col-12-->
+        <aside>
+          <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+                        <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                            <span class="fs-5 d-none d-sm-inline">Menu</span>
+                        </a>
+                      </aside>     
+    </header>
     <main>
-      <aside>
-        <div class="container-fluid">
-          <div class="row flex-nowrap">
-              <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-                  <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
-                      <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                          <span class="fs-5 d-none d-sm-inline">Menu</span>
-                      </a>
-                    </aside>
  <!--Qua inseriamo container con row e col-12-->
                         <div class="container-quadrettoni">
                           <div class="row-left">
                             <div class="col-12">
+                              <div class="card">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                              </div>
+
+                              <div class="card">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                              </div>
                   
                             </div>
                           </div>
+<!--Qua inseriamo row-right con un immagine stats-->
                           <div class="row-right">
                             <div class="col-12">
-                  
+                            </div>
+                            <div class="col-12">
+                              <div class="card">
+                                <img src="./img/stats.jpeg" class="card-img-top" alt="stats">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a>
+                                </div>
+                              </div>
                             </div>
                   
                           </div>
