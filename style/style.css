@@ -1,11 +1,10 @@
 
-
-main{
-    display: flex;
-}
-
-
 header img{
     height: 50px;
 
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+    height: 780px;
 }
