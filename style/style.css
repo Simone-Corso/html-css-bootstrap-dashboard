@@ -4,39 +4,8 @@ main{
     display: flex;
 }
 
-.container-main{
-    border: 2px solid black;
-    height: 852px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-}
-
-
-.row-left{
-    border: 2px solid magenta;
-    width: 70%;
-    height: 850px;
-}
-
-.row-right{
-    border: 2px solid magenta;
-    width: 30%;
-    height: 850px;
-}
 
 header img{
     height: 50px;
 
-}
-
-.sidebar{
-    width: 140px;
-    height: 852px;
-    background-color: red;
-    display: flex;
-}
-
-ul,li{
-    list-style-type: none;
 }
