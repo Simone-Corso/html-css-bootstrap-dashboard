@@ -5,7 +5,6 @@ header img{
 }
 
 main{
-    border: 2px solid yellow;
     margin-left: 300px;
     width: calc(100% - 300px);
 }
@@ -13,25 +12,22 @@ main{
 .container-blue{
     height: 120px;
     background-color: blue;
-    border: 2px solid yellow;
-    display: flex;
-    justify-content: space-between;
 }
 
 .left{
     height: 120px;
     width: 20%;
-    border: 2px solid red;
+    border: 2px solid magenta;
 }
 .center{
     height: 120px;
     width: 20%;
-    border: 2px solid rgb(95, 0, 0);
+    border: 2px solid magenta;
 }
 .end{
     height: 120px;
     width: 20%;
-    border: 2px solid rgb(29, 0, 0);
+    border: 2px solid magenta;
 }
 
 aside{
