@@ -6,15 +6,17 @@ header{
 
 
 #my_wrapper{
-
+    height: calc(100vh - 76px);
 }
 
 #my_wrapper aside{
     background-color: green;
+    width: 89px;
 }
 
 #my_wrapper main{
     background-color: red;
+    width: calc(100% - 89px);
 }
 
 @media screen and (min-width: 768px){
